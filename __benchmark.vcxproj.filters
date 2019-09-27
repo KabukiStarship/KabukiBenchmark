@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="benchmark">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="benchmark\seams">
+      <UniqueIdentifier>{959948ee-a36d-40fe-b374-b0b32ea0e2c0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="_config.inl">
+      <Filter>benchmark</Filter>
+    </None>
+    <None Include="_debug.inl">
+      <Filter>benchmark</Filter>
+    </None>
+    <None Include="_release.inl">
+      <Filter>benchmark</Filter>
+    </None>
+    <None Include="_undef.inl">
+      <Filter>benchmark</Filter>
+    </None>
+    <None Include="readme.md">
+      <Filter>benchmark</Filter>
+    </None>
+    <None Include="seams\readme.md">
+      <Filter>benchmark\seams</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="_config.cpp">
+      <Filter>benchmark</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="_config.h">
+      <Filter>benchmark</Filter>
+    </ClInclude>
+    <ClInclude Include="seams\01.bar.h">
+      <Filter>benchmark\seams</Filter>
+    </ClInclude>
+    <ClInclude Include="seams\test.h">
+      <Filter>benchmark\seams</Filter>
+    </ClInclude>
+    <ClInclude Include="seams\00.foo.h">
+      <Filter>benchmark\seams</Filter>
+    </ClInclude>
+    <ClInclude Include="benchmark.h">
+      <Filter>benchmark</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
